@@ -1,0 +1,886 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/Css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html">
+          <i class="fa-brands fa-hubspot"></i>
+          <span>AIHub</span>
+        </a>
+
+        <button id="sideBar" onclick="sideBAR()">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </button>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#mentor">Mentor</a></li>
+          <li><a href="#group">Group</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <button type="button" onclick="formAdd()">Get Started</button>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div>
+        <span class="sug">New Courses Available</span>
+        <h2>
+          Master New Skills <br /><span>Online Anytime,</span> <br />Anywhere
+        </h2>
+        <p>
+          Join over 50,000+ students learning from world-class <br />
+          mentors. Transform your career with industry-leading <br />
+          courses.
+        </p>
+        <button>Start Learning</button>
+        <div class="content">
+          <p>
+            <i class="fa-solid fa-user-group"></i>
+            <b>50K+</b>
+            <small>Students</small>
+          </p>
+
+          <p>
+            <i class="fa-brands fa-hubspot"></i>
+            <b>200+</b>
+            <small>Courses</small>
+          </p>
+
+          <p>
+            <i class="fa-solid fa-award"></i>
+            <b>4.9</b>
+            <small>Rating</small>
+          </p>
+        </div>
+      </div>
+
+      <div class="img-bg">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1683124226167-6d79bd64d725?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          id="img"
+          alt="home img"
+        />
+        <div class="top-img-bg">
+          <img
+            src="assets/images/user-avatar.png"
+            alt="user-avatar"
+            id="user-avatar"
+          />
+          <span>
+            <b>Join 50K+</b>
+            <small>Students</small>
+          </span>
+        </div>
+
+        <div class="bottom-img-bg">
+          <i class="fa-brands fa-hubspot"></i>
+          <span>
+            <b>200+ Courses</b>
+            <small>Available Now</small>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <div class="info">
+      <h1>Explore Our Popular <span>Courses</span></h1>
+      <span>
+        Choose from hundreds of courses designed by industry experts to help
+        <br />
+        you achieve your goals.
+      </span>
+    </div>
+
+    <section id="courses">
+      <div class="card">
+        <img
+          src="https://blogs.cisco.com/gcs/ciscoblogs/1/2024/07/AI_blog.png"
+          class="card-bg"
+          alt="user-bg"
+        />
+        <div class="content">
+          <h3>AI Fundamentals</h3>
+          <p class="user">
+            <img src="assets/images/user-teach.PNG" alt="user" />
+            <span>Trisha leo</span>
+          </p>
+          <div class="flow">
+            <p>
+              <i class="fa-regular fa-clock"></i>
+              <small>6 Weeks</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-user-group"></i>
+              <small>2.4K</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <small>4.9</small>
+            </p>
+          </div>
+          <b>$49</b>
+          <button>Enroll now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyu7dUbue1BaYIwn79MdhMSg9o2Zcy7HtanQ&s"
+          class="card-bg"
+          alt="user-bg"
+        />
+        <div class="content">
+          <h3>Machine Learning</h3>
+          <p class="user">
+            <img src="assets/images/user-teach-1.png" alt="user" />
+            <span>Sarah Johnson</span>
+          </p>
+          <div class="flow">
+            <p>
+              <i class="fa-regular fa-clock"></i>
+              <small>8 Weeks</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-user-group"></i>
+              <small>1.8K</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <small>4.7</small>
+            </p>
+          </div>
+          <b>$79</b>
+          <button>Enroll now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sPa4Ouraoj6mwFEzurtA13mR1y70_BF9AQ&s"
+          class="card-bg"
+          alt="user-bg"
+        />
+        <div class="content">
+          <h3>Deep Learning</h3>
+          <p class="user">
+            <img src="assets/images/user-teach-2.png" alt="user" />
+            <span>Mike Chen</span>
+          </p>
+          <div class="flow">
+            <p>
+              <i class="fa-regular fa-clock"></i>
+              <small>10 Weeks</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-user-group"></i>
+              <small>3.2K</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <small>4.4</small>
+            </p>
+          </div>
+          <b>$129</b>
+          <button>Enroll now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsWyI9zLz0uNuMBfsGUcDVGWR8jSpF7yyL4A&s"
+          class="card-bg"
+          alt="user-bg"
+        />
+        <div class="content">
+          <h3>AI Expert Program</h3>
+          <p class="user">
+            <img src="assets/images/user-teach-3.png" alt="user" />
+            <span>Emma Davis</span>
+          </p>
+          <div class="flow">
+            <p>
+              <i class="fa-regular fa-clock"></i>
+              <small>14 Weeks</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-user-group"></i>
+              <small>1.6K</small>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <small>5.0</small>
+            </p>
+          </div>
+          <b>$200</b>
+          <button>Enroll now</button>
+        </div>
+      </div>
+    </section>
+    <div class="view">
+      <a href="#home" class="view">View All Courses</a>
+    </div>
+
+    <div class="info">
+      <h1>Learn From Industry <span>Experts</span></h1>
+      <p>
+        Our mentors are industry leaders with years of experience in <br />
+        their respective fields.
+      </p>
+    </div>
+
+    <section id="mentor">
+      <div class="card">
+        <img src="assets/images/card-avatar.png" alt="card-avatar" />
+        <div class="content">
+          <h4>John Smith</h4>
+          <span>Web Development Expert</span>
+          <p>
+            8+ years experience in data analysis and machine learning. Former
+            Data Scientist at Facebook.
+          </p>
+          <div>
+            <p>
+              <b>20K+</b>
+              Students
+            </p>
+            <p><b>10</b> Courses</p>
+          </div>
+          <div class="social-media">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/card-avatar-3.png" alt="card-avatar" />
+        <div class="content">
+          <h4>Emma Davis</h4>
+          <span>Graphic Design Artist</span>
+          <p>
+            9+ years experience in graphic design and visual arts. Former
+            Creative Director at Adobe.
+          </p>
+          <div>
+            <p>
+              <b>22K+</b>
+              Students
+            </p>
+            <p><b>9</b> Courses</p>
+          </div>
+          <div class="social-media">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/card-avatar-1.png" alt="card-avatar" />
+        <div class="content">
+          <h4>Sarah Johnson</h4>
+          <span>Digital Marketing Guru</span>
+          <p>
+            10+ years experience in digital marketing and SEO strategies. Former
+            Marketing Manager at Google.
+          </p>
+          <div>
+            <p>
+              <b>15K+</b>
+              Students
+            </p>
+            <p><b>8</b> Courses</p>
+          </div>
+          <div class="social-media">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/card-avatar-2.png" alt="card-avatar" />
+        <div class="content">
+          <h4>Mike Chen</h4>
+          <span>Data Science Specialist</span>
+          <p>
+            7+ years experience in data analysis and machine learning. Former
+            Data Scientist at Facebook.
+          </p>
+          <div>
+            <p>
+              <b>18K+</b>
+              Students
+            </p>
+            <p><b>12</b> Courses</p>
+          </div>
+          <div class="social-media">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="group">
+      <div class="left">
+        <div class="top">
+          <h1>Join Our Thriving <span>Learning Community</span></h1>
+          <p>
+            Learning is better together. Join our community of 50,000+ students
+            and unlock collaborative features that accelerate your growth.
+          </p>
+        </div>
+        <div class="content">
+          <div>
+            <i class="fa-solid fa-user-group"></i>
+            <p>
+              <b>Study Group</b>
+              <small>
+                Connect with like-minded learners and form study groups for
+                collaborative learning.
+              </small>
+            </p>
+            <i class="fa-regular fa-comment"></i>
+            <p>
+              <b>Discussion Forums</b>
+              <small>
+                Engage in meaningful discussions and get answers from peers and
+                mentors.
+              </small>
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-calendar-days"></i>
+            <p>
+              <b>Live Sessions</b>
+              <small>
+                Join live Q&A sessions and workshops with industry experts.
+              </small>
+            </p>
+            <i class="fa-regular fa-bell"></i>
+            <p>
+              <b>Peer Support</b>
+              <small>
+                Get help and support from fellow learners anytime you need it.
+              </small>
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <p>
+              <b>Global Communit</b>
+              <small>
+                Connect with students from 150+ countries worldwide
+              </small>
+            </p>
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <p>
+              <b>Project Collaboration</b>
+              <small> Work on real-world projects with your peers. </small>
+            </p>
+          </div>
+        </div>
+        <button>Join Community</button>
+      </div>
+      <div class="right">
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-1.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-2.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-3.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-4.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-5.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-6.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-3.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-2.jpg"
+          alt="user"
+        />
+        <img
+          src="https://themewagon.github.io/learnhub/assets/images/avatar-1.jpg"
+          alt="user"
+        />
+
+        <div class="top-img-bg">
+          <i class="fa-regular fa-comment"></i>
+          <p>
+            <b>24/7 Support</b>
+            <span>Always here</span>
+          </p>
+        </div>
+        <div class="bottom-img-bg">
+          <i class="fa-solid fa-globe"></i>
+          <p>
+            <b>150+ Countries</b>
+            <span>Worldwide reach</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="top">
+        <h1>What Our Students Say</h1>
+        <p>
+          Join thousands of successful students who have transformed their
+          careers with LearnHub.
+        </p>
+      </div>
+
+      <div class="content">
+        <div class="card">
+          <div class="star-bg">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            <i class="fa-solid fa-quote-left"></i>
+            <span>
+              "LearnAI completely transformed my career. The web development
+              bootcamp gave me the skills I needed to land my dream job at Meta.
+              The mentors are incredible!"
+            </span>
+          </p>
+          <div class="user">
+            <img
+              src="https://themewagon.github.io/learnhub/assets/images/avatar-1.jpg"
+              alt="user"
+            />
+            <p>
+              <b>Alex Thompson</b>
+              <span>Software Developer at Meta</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="star-bg">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            <i class="fa-solid fa-quote-left"></i>
+            <span>
+              "The UI/UX design course was exactly what I needed. The practical
+              projects and mentor feedback helped me build a portfolio that got
+              me hired at Spotify."
+            </span>
+          </p>
+          <div class="user">
+            <img
+              src="https://themewagon.github.io/learnhub/assets/images/avatar-2.jpg"
+              alt="user"
+            />
+            <p>
+              <b>Jessica Lee</b>
+              <span>UX Designer at Spotify</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="star-bg">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            <i class="fa-solid fa-quote-left"></i>
+            <span>
+              "I switched careers from marketing to data science thanks to
+              LearnHub. The structured curriculum and supportive community made
+              the transition seamless."
+            </span>
+          </p>
+          <div class="user">
+            <img
+              src="https://themewagon.github.io/learnhub/assets/images/avatar-5.jpg"
+              alt="user"
+            />
+            <p>
+              <b>David Park</b>
+              <span>Data Analyst at Amazon</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="star-bg">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            <i class="fa-solid fa-quote-left"></i>
+            <span>
+              "As a freelancer, I needed flexible learning. LearnHub's
+              self-paced courses fit perfectly into my schedule. Highly
+              recommend!"
+            </span>
+          </p>
+          <div class="user">
+            <img
+              src="https://themewagon.github.io/learnhub/assets/images/avatar-4.jpg"
+              alt="user"
+            />
+            <p>
+              <b>Maria Garcia</b>
+              <span>Freelance Designer</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="star-bg">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            <i class="fa-solid fa-quote-left"></i>
+            <span>
+              "The marketing course helped me understand how to grow my startup.
+              The ROI has been incredible - best investment in my education."
+            </span>
+          </p>
+          <div class="user">
+            <img
+              src="https://themewagon.github.io/learnhub/assets/images/avatar-5.jpg"
+              alt="user"
+            />
+            <p>
+              <b>James Wilson</b>
+              <span>Startup Founder</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="star-bg">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            <i class="fa-solid fa-quote-left"></i>
+            <span>
+              "The combination of technical and business courses gave me a
+              unique edge. I've recommended LearnHub to all my colleagues."
+            </span>
+          </p>
+          <div class="user">
+            <img
+              src="https://themewagon.github.io/learnhub/assets/images/avatar-6.jpg"
+              alt="user"
+            />
+            <p>
+              <b>Emily Chen</b>
+              <span>Product Manager at Google</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="info">
+        <h1>Simple, Transparent <span>Pricing</span></h1>
+        <p>
+          Choose the plan that fits your learning goals. No hidden fees, cancel
+          anytime.
+        </p>
+      </div>
+
+      <div class="content">
+        <div class="card">
+          <strong>Starter</strong>
+          <span>Perfect for beginners</span>
+          <b>Free</b>
+          <ul>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Access to 10 free courses</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Basic community access</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Email support</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Mobile app access</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Course completion certificates</span>
+            </li>
+            <button>Get Started</button>
+          </ul>
+        </div>
+        <div class="card active">
+          <strong>Pro</strong>
+          <span>Most popular choice</span>
+          <p>
+            <b>$29</b>
+            <sub>/month</sub>
+          </p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Unlimited course access</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Full community features</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Priority support 24/7</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Downloadable resources</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Live Q&A sessions</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Project reviews</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Career coaching</span>
+            </li>
+            <button>Start Pro Trial</button>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Enterprise</strong>
+          <span>For teams & organizations</span>
+          <p>
+            <b>$99</b>
+            <sub>/month</sub>
+          </p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Everything in Pro</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Custom learning paths</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Team analytics dashboard</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Dedicated success manager</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Custom integrations</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>SSO authentication</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Invoice billing</span>
+            </li>
+            <button>Contact Sales</button>
+          </ul>
+        </div>
+      </div>
+      <p>
+        All plans include a 14-day money-back guarantee. No questions asked.
+      </p>
+    </section>
+
+    <div class="form-bg">
+      <form>
+        <div class="top">
+          <h3>Create your account</h3>
+          <button type="button" onclick="Times()">&times;</button>
+        </div>
+        <div class="content">
+          <label for="name">Full name</label>
+          <input type="text" id="name" placeholder="Name here..." />
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="name@example.com"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Create a password..."
+            required
+          />
+          <label for="confirm">Confirm password</label>
+          <input
+            type="password"
+            id="confirm"
+            placeholder="Repeat password..."
+            required
+          />
+          <div>
+            <input type="radio" id="radio" />
+            <label for="radio">I agree to the terms and privacy</label>
+          </div>
+        </div>
+        <button
+          id="sign"
+          type="submit"
+          onclick="alert('Mesajınız Gönderildi!')"
+        >
+          Sign up
+        </button>
+      </form>
+    </div>
+
+    <div class="overlay"></div>
+
+    <footer>
+      <div class="content">
+        <div class="left">
+          <div class="logo">
+            <a href="./index.html">
+              <i class="fa-brands fa-hubspot"></i>
+              <span>AIHub</span>
+            </a>
+            <p>
+              Empowering millions of learners worldwide with industry-leading
+              courses and expert mentors.
+            </p>
+          </div>
+
+          <ul>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a>hello@learnai.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a>90+(555) 1234 5678</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <a>Turkey, Konya</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <div>
+            <b>Product</b>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#courses">Courses</a>
+            <a href="#community">Community</a>
+          </div>
+          <div>
+            <b>Company</b>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Press</a>
+          </div>
+          <div>
+            <b>Support</b>
+            <a href="#">Help Center</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+          <div>
+            <b>Help Center</b>
+            <a href="#">Web Development</a>
+            <a href="#">UI/UX Design</a>
+            <a href="#">Data Science</a>
+            <a href="#">Marketing</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          &copy; 2026 AIHub. All rights reserved. Developed by
+          <a href="#">Ahmet Sevinik</a>
+        </p>
+      </div>
+    </footer>
+    <script src="assets/Js/script.js" defer></script>
+  </body>
+</html>
